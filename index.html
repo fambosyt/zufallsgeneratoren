@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎲 Zufallsgeneratoren</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Zufallsgeneratoren</h1>
+
+    <section>
+      <h2>Zufallszahl (1-100)</h2>
+      <button onclick="generateNumber()">🔢 Generieren</button>
+      <p id="numberResult">–</p>
+    </section>
+
+    <section>
+      <h2>Zufälliger Name</h2>
+      <button onclick="generateName()">👤 Generieren</button>
+      <p id="nameResult">–</p>
+    </section>
+
+    <section>
+      <h2>Zufälliges Passwort</h2>
+      <button onclick="generatePassword()">🔐 Generieren</button>
+      <p id="passwordResult">–</p>
+    </section>
+
+    <section>
+      <h2>Zufällige Farbe</h2>
+      <button onclick="generateColor()">🎨 Generieren</button>
+      <p id="colorResult">–</p>
+      <div id="colorPreview" class="color-box"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
